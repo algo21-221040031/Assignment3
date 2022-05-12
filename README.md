@@ -49,7 +49,7 @@ and construct volatility smile.
  <img src="https://user-images.githubusercontent.com/101002984/167990027-c72a76cb-3731-4e28-b7ee-1eaabc8e96f4.png" />
 </div>
 2. Sensitivity Analysis:
- * 
+  - haha 
  .<div align=center>
   <img src="https://user-images.githubusercontent.com/101002984/167990098-754c87bf-5c16-4566-a106-66b0af9b8f10.png" />
   </div>
