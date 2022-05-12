@@ -1,4 +1,4 @@
-# Numerical Valuation Methods onCompound Option Pricing
+# Numerical Valuation Methods on Compound Option Pricing
 ## Introduction
 This assignment aims to analyze the pricing methodology of Compound American Option. Considering the problem that Compound Option have no analytical solution,
 this assignment focuses on the use of tree models: Binomial tree and Trinomial trees
