@@ -1,6 +1,6 @@
 # Numerical Valuation Methods on Compound Option Pricing
 ## Introduction
-This assignment aims to analyze the pricing methodology of Compound American Option. Considering the problem that Compound Option have no analytical solution,
+This assignment aims to analyze the pricing methodology of Compound American Option. Considering the problem that Compound Option has no analytical solution,
 this assignment focuses on the use of tree models: Binomial tree and Trinomial trees
 to price Compound American Option.The pricing models shows great effect on the
 Compound Option. In order to further test the pricing effect, Monte
@@ -22,3 +22,23 @@ premise of assuming that the stock price obeys the lognormal distribution.
   * simulation_and_pricing_result.py: output the result.
 * Folder "data": containing all the data required, the price of stock option of JP Morgan;
 * Folder "result": containing the output figures.
+
+## Ideas
+* Firstly, I established two compound option pricing models: Binomial
+tree and Trinomial tree. Starting with stock price changes, then
+calculated the price of European options on the basis of stock price changes, and
+then constructed the pricing method of American options based on the price of European
+options. After pricing the underlying option, further applied the binomial
+tree and the trinomial tree model to American Compound Options, and the model
+results showed that the pricing effect was good.
+* Then, I conducted a detailed analysis of each parameter in the pricing
+model, mainly analyzing the relationship between the changes of parameters and
+the price of compound options.
+* Then on the assumption that the stock price follows a lognormal distribution,
+I used Monte Carlo Simulation to simulate the price of European Compound
+Options, and used Least Square Monte Carlo to simulate the price of American
+Compound Options.
+* Then, I discussED the Greeks. The analysis of the Greeks is essentially
+the sensitivity analysis of option prices.
+* Finally, I used Binary and Newtons method to calculate implied volatility
+and construct volatility smile.
