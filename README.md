@@ -49,11 +49,26 @@ and construct volatility smile.
  <img src="https://user-images.githubusercontent.com/101002984/167990027-c72a76cb-3731-4e28-b7ee-1eaabc8e96f4.png" />
 </div>
 2. Sensitivity Analysis:
-![sensetivity_k2](https://user-images.githubusercontent.com/101002984/167990098-754c87bf-5c16-4566-a106-66b0af9b8f10.png)
-![sensitity_t2](https://user-images.githubusercontent.com/101002984/167990104-0b035c6c-80a9-4535-9b1e-7189b6fc0fbe.png)
-![sensitivity_k1](https://user-images.githubusercontent.com/101002984/167990106-5b0dc699-98b7-41a2-b72d-7ae5fb518c79.png)
-![sensitivity_n](https://user-images.githubusercontent.com/101002984/167990108-2306d021-ece6-46be-8f7e-5de58527da2b.png)
-![sensitivity_t1](https://user-images.githubusercontent.com/101002984/167990109-38ca9550-4a24-4351-9df7-b0dd93360bc5.png)
+ * 
+ .<div align=center>
+  <img src="https://user-images.githubusercontent.com/101002984/167990098-754c87bf-5c16-4566-a106-66b0af9b8f10.png" />
+  </div>
+ *
+  .<div align=center>
+   <img src="https://user-images.githubusercontent.com/101002984/167990104-0b035c6c-80a9-4535-9b1e-7189b6fc0fbe.png" />
+   </div>
+ *
+  .<div align=center>
+   <img src="https://user-images.githubusercontent.com/101002984/167990106-5b0dc699-98b7-41a2-b72d-7ae5fb518c79.png" />
+   </div>
+ *
+   .<div align=center>
+    <img src="https://user-images.githubusercontent.com/101002984/167990108-2306d021-ece6-46be-8f7e-5de58527da2b.png" />
+    </div>
+ *
+   .<div align=center>
+    <img src="https://user-images.githubusercontent.com/101002984/167990109-38ca9550-4a24-4351-9df7-b0dd93360bc5.png" />
+    </div> 
 3. Greeks Calculation:
 ![delta_result](https://user-images.githubusercontent.com/101002984/167990150-adca22ba-9383-4c35-bd5e-3ad63a972222.png)
 ![gamma_result](https://user-images.githubusercontent.com/101002984/167990157-7ad2da28-a141-497f-b72d-db0f7100417b.png)
