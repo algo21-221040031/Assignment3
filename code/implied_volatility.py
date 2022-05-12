@@ -3,10 +3,10 @@ from derivative_pricing_models import *
 import pandas as pd
 
 '''
-关于隐含波动率:
-以摩根大通2021.11.24
-到期日为2021.12.31,2022.4.14,2023.1.21,2024.1.19的各执行价的期权为例
-时间年化为：
+Implied Volatility
+JP Morgen2021.11.24
+Expiration date: 2021.12.31,2022.4.14,2023.1.21,2024.1.19, option with different strike price.
+Time transformed annualy：
 12.31 0.0986301369863
 4.14  0.3835616438356
 2023.1.20  1.1534246575342
@@ -25,7 +25,7 @@ def plot_sigma(file_name,T):
     C = df["卖价"]
     KC_tulpe = list(zip(K,C))
     sigma_list = [bsm_imp_vol(S,k,T,r,c,q) for (k,c) in KC_tulpe]
-    #画出波动率曲线
+    # Plot the volatility curve
     plt.figure()
     plt.plot(K, sigma_list, label='sigma')
     
