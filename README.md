@@ -45,7 +45,9 @@ and construct volatility smile.
 
 ## Conclusion
 1. The accuracy of binomial tree can be shown as:
+<div align=center>
 ![binomial_tree_test](https://user-images.githubusercontent.com/101002984/167990027-c72a76cb-3731-4e28-b7ee-1eaabc8e96f4.png)
+ </div>
 2. Sensitivity Analysis:
 ![sensetivity_k2](https://user-images.githubusercontent.com/101002984/167990098-754c87bf-5c16-4566-a106-66b0af9b8f10.png)
 ![sensitity_t2](https://user-images.githubusercontent.com/101002984/167990104-0b035c6c-80a9-4535-9b1e-7189b6fc0fbe.png)
