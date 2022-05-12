@@ -4,7 +4,7 @@ T2 = 0.3
 K1 = 10
 K2 = 100
 from derivative_pricing_models import *
-'''关于Y的希腊值'''
+'''Greeks of Compound Option'''
 
 S_price = range(80,151,5)
 
@@ -53,7 +53,7 @@ plt.xlabel('S')
 plt.ylabel('theta')
 plt.legend(loc=4)
 
-#改进，在二叉树里计算delta：
+# Calculate delta in binomial tree：
 def n_delta(S,K1,K2,T1,T2,r,q,N,sigma):
     dt = T1/N
     u = math.exp((r-q)*dt + sigma*(dt**0.5))
@@ -80,7 +80,7 @@ def n_gamma(S,K1,K2,T1,T2,r,q,N,sigma):
     d1 = n_delta(S,K1,K2,T1,T2,r,q,N,sigma)
     return (d2-d1)/0.01
 
-#画出更精确的gamma
+# plot gamma
 plt.figure()
 ag_01 = [n_gamma(s,K1,K2,0.1,T2,r,q,100,sigma) for s in S_price]
 ag_005 = [n_gamma(s,K1,K2,0.05,T2,r,q,100,sigma) for s in S_price]
