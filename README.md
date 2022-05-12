@@ -38,7 +38,12 @@ the price of compound options.
 I used Monte Carlo Simulation to simulate the price of European Compound
 Options, and used Least Square Monte Carlo to simulate the price of American
 Compound Options.
-* Then, I discussED the Greeks. The analysis of the Greeks is essentially
+* Then, I discussed the Greeks. The analysis of the Greeks is essentially
 the sensitivity analysis of option prices.
 * Finally, I used Binary and Newtons method to calculate implied volatility
 and construct volatility smile.
+
+## Conclusion
+1. The accuracy of binomial tree can be shown as:
+![binomial_tree_test](https://user-images.githubusercontent.com/101002984/167990027-c72a76cb-3731-4e28-b7ee-1eaabc8e96f4.png)
+
