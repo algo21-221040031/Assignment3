@@ -214,7 +214,7 @@ def linear_fitting(X,Y):
     resulted_Ys = fitted_coeff[0]+fitted_coeff[1]*X+fitted_coeff[2]*X*X
     return resulted_Ys
 
-# simulate the price of Y
+# Simulate the price of Y
 def Y_MC_American_call_price(r, q,sigma, S_0, T1,T2 ,M, N,K1,K2):
     data = sample_paths(r, q,sigma, S_0, T1,T2 ,M, N,K2)
     option_prices = np.maximum(data[:,-1]-K1, 0)
